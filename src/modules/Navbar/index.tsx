@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           <img src={GoledoWhite} alt="goledo icon" className="w-34px h-34px mr-auto sm:mr-40px" />
           <ul className="navbar-linkArea display-none sm:flex h-full items-center text-14px font-semibold">
             <NavLink to="/dashboard" curPath={curPath === '/' ? '/dashboard' : curPath} id="nav-bar-dashboard-link">
-              Dashboard
+              Dashboard1
             </NavLink>
             <NavLink to="/markets" curPath={curPath} id="nav-bar-markets-link">
               Markets
